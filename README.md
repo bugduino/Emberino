@@ -15,11 +15,10 @@ A boilerplate for Ember.js projects containing:
 
 `bower install`
 
-`grunt server` (default 0.0.0.0:8000)
-
 `npm install --save-dev grunt-contrib-coffee`
 
 `npm install --save-dev grunt-sass`
 
 `npm install --save-dev connect-livereload`
 
+`grunt server` (default 0.0.0.0:8000)
