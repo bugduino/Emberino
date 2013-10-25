@@ -1,3 +1,11 @@
 ##Emberino
-<hr>
-This project aims to connect in some way Arduino (or Raspberry Pi)  with Ember.js
+
+A boilerplate for Ember.js projects containing:
+    -Ember-data
+    -Coffeescript
+    -Sass/scss
+    -Foundation 4.3.2 (with medium-grid)
+
+##Getting Started
+
+
