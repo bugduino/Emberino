@@ -4,8 +4,6 @@
   <title>App</title>
   <link rel="stylesheet" href="/assets/app.css">
 
-  <!-- for more details visit: https://github.com/yeoman/grunt-usemin -->
-
   <!-- build:js(.) /assets/vendor.min.js -->
   <script src="/vendor/jquery/jquery.js"></script>
   <script src="/vendor/handlebars/handlebars.js"></script>
@@ -13,6 +11,8 @@
   <script src="/vendor/ember-data-shim/ember-data.js"></script>
   <script src="/vendor/almond.js"></script>
   <script src="/vendor/resolver.js"></script>
+  <script src="/vendor/foundation/js/foundation/foundation.js"></script>
+  <script src="/vendor/foundation/js/vendor/custom.modernizr.js"></script>
   <!-- endbuild -->
 
   <!-- build:js(tmp/public) /assets/app.min.js -->
@@ -23,6 +23,9 @@
 <body>
   <script>
     window.App = require('appkit/app').create();
+  </script>
+  <script>
+    $(document).foundation();
   </script>
 </body>
 </html>
