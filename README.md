@@ -6,7 +6,11 @@ A boilerplate for Ember.js projects containing:
     - Sass/scss
     - Foundation 4.3.2 (with medium-grid)
 
-##Getting Started
+##Automatic installer
+`chmod +x emberino.sh`
+`./emberino.sh`
+
+##Manual Installation (Manually)
 `npm install -g grunt-cli`
 
 `npm install`
