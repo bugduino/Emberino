@@ -8,6 +8,7 @@ A boilerplate for Ember.js projects containing:
 
 ##Automatic installer
 `chmod +x emberino.sh`
+
 `./emberino.sh`
 
 ##Manual Installation (Manually)
